@@ -5,7 +5,7 @@
 - [Limitations](#limitations-of-the-zsh-script)
 
 > [!NOTE]
-> You can find my accepted solutions [here](https://github.com/ashwinvenkat8/leetcode/tree/main/src). I will try to keep it updated.
+> You can find my accepted solutions [here](https://github.com/ashwinvenkat8/leetdump/tree/main/src). I will try to keep it updated.
 
 Recently, I wanted to get all the solutions I submitted on Leetcode as I wanted to share them with a few people.
 My first thought was to look for an export option in Leetcode as I assumed this was a common need. While there is a page to
@@ -20,11 +20,11 @@ myself, I decided to build one that suits my current requirement. Now that I've 
 
 ## Python
 
-[This script](https://github.com/ashwinvenkat8/leetcode/blob/main/leetdump.py) will fetch all submissions from an account and write them as files to a specified output directory. Currently, Python (`.py`), Java (`.java`), JavaScript (`.js`), and PostgreSQL (`.sql`) code will be written with their correct extensions. Any other type of code will be written as `.txt`.
+[This script](https://github.com/ashwinvenkat8/leetdump/blob/main/leetdump.py) will fetch all submissions from an account and write them as files to a specified output directory. Currently, Python (`.py`), Java (`.java`), JavaScript (`.js`), and PostgreSQL (`.sql`) code will be written with their correct extensions. Any other type of code will be written as `.txt`.
 
 ## Zsh Script
 
-[This script](https://github.com/ashwinvenkat8/leetcode/blob/main/leetdump.sh) was the first one I developed to get my submissions. Once this executed, I had some manual work before it was ready to be stored as files. It was fun developing this as I don't use Zsh scripts often.
+[This script](https://github.com/ashwinvenkat8/leetdump/blob/main/leetdump.sh) was the first one I developed to get my submissions. Once this executed, I had some manual work before it was ready to be stored as files. It was fun developing this as I don't use Zsh scripts often.
 
 ## Limitations of the Zsh Script
 
